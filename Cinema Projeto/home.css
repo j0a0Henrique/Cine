@@ -1,0 +1,29 @@
+/* imagem principal */
+.a1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.a1 img{border-radius: 30px;}
+
+/* IMAGENS */
+.conteiner2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    gap: 25px; 
+    justify-content: center;
+    margin: 30px auto; 
+}
+.conteiner2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner2 div img {
+    border-radius: 30px;
+    max-width: 100%;
+    height: 600px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
